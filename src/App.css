@@ -1,0 +1,203 @@
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+
+}
+.sub{
+  height: 68%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ scroll-margin-bottom: 0;
+}
+.profilediv{
+  width: 20%;
+  height: 100%;
+  background-color: rgb(12, 10, 34);
+  border-radius: 15px; 
+  margin-right: 20px;
+}
+.profile{
+  width: 100%;
+  height: 68%;
+  background-color: rgb(64, 64, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  border-radius:15px;
+}
+.jeremy{
+  width: 79px;
+  height: 79px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+.report{
+  font-size: small;
+  color: rgb(180, 177, 177);
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.name{
+  font-size:xx-large ;
+  margin-left: 20px;
+  margin-top: -5px;
+  font-weight: 50;
+  color: white;
+}
+.period{
+  width: 100%;
+  height: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: space-evenly;
+}
+.daily{
+  font-size: medium ;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.weekly{
+  font-size: medium;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.monthly{
+  font-size: medium;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.compdiv{
+  width: 58%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+
+
+
+
+
+
+@media (max-width:600px){
+  .main{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+  
+  }
+  .sub{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    scroll-margin-bottom: 100px;
+   
+  }
+  .profilediv{
+    width: 90vw;
+    height: 32%;
+    background-color: rgb(12, 10, 34);
+    border-radius: 15px; 
+    margin-right: 0;
+  }
+  .profile{
+    width: 100%;
+    height: 68%;
+    background-color: rgb(64, 64, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    border-radius:15px;
+    
+  }
+  .jeremy{
+    width: 79px;
+    height: 79px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid white;
+    border-radius: 100%;
+  }
+  .report{
+    font-size: small;
+    color: rgb(180, 177, 177);
+    margin-top: 20px;
+    margin-left: 20px;
+
+  }
+  .name{
+    font-size:xx-large ;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-weight: 50;
+    color: white;
+  }
+  .period{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+  }
+  .daily{
+    font-size: medium ;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  .weekly{
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  .monthly{
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+    cursor: pointer;
+  }
+  .compdiv{
+    width: 58%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+
+}
